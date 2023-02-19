@@ -111,3 +111,19 @@ h1, h2 {
 #photos > img {
     width: 100%;
 }
+
+/* contact us form */
+
+#contact {
+    max-width: 600px;
+  width:100%;
+  margin:0 auto;
+  border: 1px solid #333;
+  position:relative;
+  height:300px;
+    
+}
+
+#header {
+    margin-bottom: 20px;
+}
