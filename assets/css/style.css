@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&family=Tilt+Warp&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -11,9 +13,14 @@ body {
 }
 
 h1, h2 {
-    font-family: Ropa Sans, sans-serif;
+    font-family: 'Tilt Warp', sans-serif;
     letter-spacing: 4px;
-    color: #252525;
+    color: #f8f2f2;
+    text-shadow:  4px 4px 4px #3a3939;
+}
+
+p {
+    font-family: 'Oswald', sans-serif;
 }
 
 #logo {
@@ -78,6 +85,10 @@ h1, h2 {
     margin-right: 15%;
 }
 
+#aboutUs h2 {
+    padding: 30px 15px;
+}
+
 #aboutUs p {
     font-size: 25px;
     margin-bottom: 25px;
@@ -121,7 +132,7 @@ h1, h2 {
     text-align: center;
     border: 5px solid #252525;
     border-radius: 10px;
-    margin: 50px 30% 50px 30%;
+    margin: 50px 25% 50px 25%;
 }
 
 #adress {
