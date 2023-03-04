@@ -10,6 +10,9 @@ body {
     font-weight: 300;
     color: #3a3a3a;
     background-color: rgb(175, 179, 180);
+    max-width: 2000px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h1, h2 {
@@ -78,19 +81,19 @@ p {
 
 /* Secend section */
 
-#aboutUs {
+#about_us {
     text-align: center;
     margin-top: 25px;
     margin-left: 15%;
     margin-right: 15%;
 }
 
-#aboutUs h2 {
+#about_us h2 {
     padding: 30px 15px;
 }
 
-#aboutUs p {
-    font-size: 25px;
+#about_us p {
+    font-size: 100%;
     margin-bottom: 25px;
 }
 
@@ -142,6 +145,15 @@ p {
     margin: 50px 25% 50px 25%;
 }
 
+form {
+    display: block;
+    max-width: 200px;
+    
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+}
+
 #adress {
     text-align: center;
 }
@@ -149,8 +161,9 @@ p {
 #button {
     transition-duration: 0.4s;
     margin-top: 10px;
-    font-size: 18px;
+    font-size: 100%;
     border-radius: 5px;
+    border: 2px solid black;
 }
 
 #button:hover {
