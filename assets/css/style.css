@@ -13,6 +13,7 @@ body {
     max-width: 2000px;
     margin-left: auto;
     margin-right: auto;
+    padding: 0 5% 0 5%;
 }
 
 h1, h2 {
@@ -130,6 +131,8 @@ p {
     border: 5px solid black;
     border-radius: 15px;
     margin-top: 20px;
+    max-height: 90vh;
+    object-fit: cover;
 }
 
 
@@ -142,20 +145,31 @@ p {
     text-align: center;
     border: 5px solid #252525;
     border-radius: 10px;
-    margin: 50px 25% 50px 25%;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 145px;
 }
 
 form {
     display: block;
-    max-width: 200px;
-    
+    max-width: 400px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 15px;
 }
 
+input {
+    padding: 8px;
+    font-size: 0.9rem;
+    width: 90%;
+    box-sizing: border-box;
+
+}
+
 #adress {
     text-align: center;
+    margin-top: 40px;
 }
 
 #button {
@@ -164,6 +178,8 @@ form {
     font-size: 100%;
     border-radius: 5px;
     border: 2px solid black;
+    height: 30px;
+    width: 150px;
 }
 
 #button:hover {
