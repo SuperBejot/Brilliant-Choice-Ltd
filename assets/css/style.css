@@ -188,4 +188,12 @@ input {
 }
 
 
+/* media queries*/
 
+/* for medium to small screens size from 1020px wide and down */
+
+@media screen and (max-width: 1020px) {
+    #home {
+        display: none;
+    }
+}
