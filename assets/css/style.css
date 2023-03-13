@@ -75,9 +75,9 @@ p {
 #main_img {
     height: 400px;
     width: 100%;
-    background: url(../images/blue_sky.jpg) no-repeat center center;
+    background: url(../images/main_img_2.jpg) no-repeat center center;
     object-fit: scale-down;
-    
+    border-radius: 25px;
 }
 
 /* Secend section */
